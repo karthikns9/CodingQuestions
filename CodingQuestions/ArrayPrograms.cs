@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -72,6 +73,33 @@ namespace CodingQuestions
                 else if (num > secondLargest && num < largest)
                 {
                     secondLargest = num;
+                }
+            }
+        }
+
+        public static void TwoIntegersSumToTarget(int[] arr, int target)
+        {
+            Array.Sort(arr);
+
+            int left = 0;
+            int right = arr.Length - 1;
+            int count = arr.Length;
+
+            while (left < right)
+            {
+                int sum = arr[left] + arr[right];
+                if ( sum == target)
+                {
+                    return;
+                }
+
+                if (sum < target)
+                {
+                    left++;
+                }
+                else
+                {
+                    right--;
                 }
             }
         }
