@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingQuestions", "CodingQuestions\CodingQuestions.csproj", "{1C29F682-20EE-4AC9-8F2A-8ACC9905CAB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns\Patterns.csproj", "{A83D5E1F-5747-4A30-8839-596BB5BEFB2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns", "Patterns\Patterns.csproj", "{A83D5E1F-5747-4A30-8839-596BB5BEFB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{D13348DF-836E-4045-9617-6DD7D407E6CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A83D5E1F-5747-4A30-8839-596BB5BEFB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A83D5E1F-5747-4A30-8839-596BB5BEFB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A83D5E1F-5747-4A30-8839-596BB5BEFB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D13348DF-836E-4045-9617-6DD7D407E6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13348DF-836E-4045-9617-6DD7D407E6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13348DF-836E-4045-9617-6DD7D407E6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13348DF-836E-4045-9617-6DD7D407E6CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
